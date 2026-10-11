@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+h2 {
+  color: gray;
+}
+
+p {
+  font-size: 20px;
+  color: #333333;
+}
+
+li {
+  margin-bottom: 8px;
+}

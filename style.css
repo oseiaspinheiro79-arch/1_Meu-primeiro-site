@@ -21,7 +21,7 @@ p {
 }
 
 li {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 button {
   background-color: darkblue;
@@ -42,5 +42,5 @@ button:hover {
 
 button {
   display: block;
-  margin: 0 auto;
+  margin: 8px auto;
 }

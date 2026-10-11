@@ -5,7 +5,12 @@ let contador = 0;
 
 botao.addEventListener("click", function () {
   contador = contador + 1;
-  mensagem.textContent = "Cliques: " + contador;
+
+  if (contador >= 25) {
+    mensagem.textContent = "Uau! Você chegou a " + contador + " cliques! 🎉";
+  } else {
+    mensagem.textContent = "Cliques: " + contador;
+  }
 });
 
 const botaoZerar = document.getElementById("botaoZerar");
